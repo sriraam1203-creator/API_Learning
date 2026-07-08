@@ -37,10 +37,6 @@ def skills():
         ]
     })
 
-@app.route("/about")
-def about():
-    return {
-        "message": "Learning Git Workflow"
-    }
+
 
 app.run(debug=True)
