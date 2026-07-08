@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to My API"
+    return "Welcome from Master Branch"
 
 
 @app.route("/student")
